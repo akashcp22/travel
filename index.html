@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/open-collective.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./website.css">
+    <!-- textanimation -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!-- scroll animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <i class="navbar-brand text-dark" href="#"><i class="fa-solid fa-location-dot fa-2x"></i></i></a>
+          <li class="nav-item">
+            <a style="margin-bottom: 10px; font-size: 30px;" class="nav-link" href="#"><b>Travel Expert</b></a>
+          </li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  " href="#"><b>Home</b></a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link " ><b>Gallery</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " ><b>About us</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " ><b>Contact</b></a>
+              </li>
+            </ul>
+           </div></div></nav>
+           <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="1500">
+                <img id="carouselimg" src="./images/pexels-stefan-stefancik-91217.jpg" class="image d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5  class="animate__animated animate__bounce" id="caption">Plan your journey efficiently!</h5>
+                  <p class="animate__animated animate__slideInLeft">Discuss with experts and plan the most joyful vacation.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img id="carouselimg" src="./images/pexels-rachel-claire-4825701.jpg" class="image d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5  class="animate__animated animate__bounce">Pick the best packages</h5>
+                  <p class="animate__animated animate__slideInLeft">Choose from a wide variety of packages according to you.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="1500">
+                <img id="carouselimg" src="./images/pexels-rachel-vine-2114206.jpg" class="image d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5  class="animate__animated animate__bounce">Enjoy Excellent services!</h5>
+                  <p class="animate__animated animate__slideInLeft">We provide best servic. customer satisfaction is our first priority.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <h2 class="container text-center my-5" >Choose packages according to you!</h2>
+          
+          <!-- 3 card -->
+          <div class="container mt-5 ">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000" class="col">
+                <div class="card h-100">
+                  <img src="./images/pexels-ekrulila-2305761.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Custom packages</h5>
+                    <p class="card-text"> Design your ideal vacation with flexibility and guidance from our experts.</p>
+                  </div>
+                  <!-- <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                  </div> -->
+                </div>
+              </div>
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000" class="col">
+                <div class="card h-100">
+                  <img src="./images/pexels-m-venter-792254-1659437.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Adventure packages</h5>
+                    <p class="card-text"> Experience thrilling activities and explore stunning landscapes in exhilarating destinations.</p>
+                  </div>
+                  <!-- <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                  </div> -->
+                </div>
+              </div>
+              <div data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000" class="col">
+                <div class="card h-100">
+                  <img src="./images/pexels-thorsten-technoman-109353-338504.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Premium packages</h5>
+                    <p class="card-text"> Indulge in luxury and personalized service for an unforgettable getaway.</p>
+                  </div>
+                  <!-- <div class="card-footer">
+                    <small class="text-body-secondary">Last updated 3 mins ago</small>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- carousel-card -->
+          <div class="feedback container mt-5"   data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom" class="card mb-3 mt-5 container " style="max-width: 740px;">
+            <div class="row g-0 ">
+              <div class="col-md-4 ">
+               <div class="fbimg border-end"> <img src="./images/—Pngtree—feedback glyph icon vector_5058255.png" class="img-fluid rounded-start" alt="..."></div>
+              </div>
+              <div class="col-md-8 container mt-5 my-5">
+                <div class="card-body ">
+                  <!-- <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div> -->
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="1500">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <p>I had a very wonderful experience! Thanks travel expert..</p><br>
+                  <img  src="./images/pexels-andrea-piacquadio-762080.jpg" height="60px;" width="60px" style="border-radius: 50%;" alt="">
+                    </div>
+                    <div class="carousel-item">
+                      <p>I suggest everyone who sees this post!</p><br>
+                      <img src="./images/pexels-andrea-piacquadio-845457.jpg" height="60px;" width="60px" style="border-radius: 50%;" alt="">
+                    </div>
+                    <div class="carousel-item">
+                     <p>We had a very enjoyable trip.</p><br>
+                     <img height="60px;" width="60px" style="border-radius: 50%;" src="./images/pexels-hasibullah-zhowandai-819530.jpg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+         <div class="footer">
+            <div class="row footer">
+              <div class="col-3"></div>
+              <div class="col-3"></div>
+              <div class="col-3"></div>
+              <div class="col-3"></div>
+            </div>
+         </div>
+          <!-- aos linking -->
+          <script>
+            AOS.init();
+          </script>
+          </body>
+          </html>
+           

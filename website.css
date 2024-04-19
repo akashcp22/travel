@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+nav:hover{
+    background-color: rgb(158, 158, 242);
+}
+#carouselimg{
+    height: 600px;
+
+}
+#carousel {
+    display:flex;
+    align-items: center;
+}
+h5:hover{
+    
+
+   
+    transform: scale(1.5);
+border-radius: 10px 30px;}
+
+.image:hover{filter: blur(4px);
+    opacity:0.5;
+
+}
+nav{
+    background-color: white;
+}
+.carousel-caption{
+    margin-bottom: 250px;
+}
+.feedback{
+    background-color: rgb(123, 173, 123);
+    border-radius: 10px;
+}
+.fbimg{
+    height: 80%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.footer{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+}
+@media screen and (max-width: 770px) {
+    #caption{
+        font-size: 5px;
+    }
+    #caption{
+        font-size: 5px;
+        }
+  }
