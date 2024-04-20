@@ -24,11 +24,11 @@ border-radius: 10px 30px;}
 nav{
     background-color: white;
 }
-.carousel-caption{
+/* .carousel-caption{
     margin-bottom: 250px;
-}
+} */
 .feedback{
-    background-color: rgb(123, 173, 123);
+    background-color: rgba(123, 173, 123, 0.377);
     border-radius: 10px;
 }
 .fbimg{
@@ -42,11 +42,19 @@ nav{
     width: 100%;
     margin-top: 40px;
 }
-@media screen and (max-width: 770px) {
+/* @media screen and (max-width: 770px) {
     #caption{
         font-size: 5px;
     }
     #caption{
         font-size: 5px;
         }
-  }
+  } */
+@media screen and (max-width: 767px){
+ #caption{
+    font-size:2px;
+ }
+} 
+    
+
+

@@ -22,10 +22,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <nav class="navbar navbar-expand-lg ">
         <div class="container">
-          <i class="navbar-brand text-dark" href="#"><i class="fa-solid fa-location-dot fa-2x"></i></i></a>
-          <li class="nav-item">
-            <a style="margin-bottom: 10px; font-size: 30px;" class="nav-link" href="#"><b>Travel Expert</b></a>
-          </li>
+          <a class="navbar-brand" href="#">    <i class="fa-solid fa-location-dot fa-2x"></i></a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Travel Expert</a>
+    </li>
+
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -57,21 +64,21 @@
                 <img id="carouselimg" src="./images/pexels-stefan-stefancik-91217.jpg" class="image d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5  class="animate__animated animate__bounce" id="caption">Plan your journey efficiently!</h5>
-                  <p class="animate__animated animate__slideInLeft">Discuss with experts and plan the most joyful vacation.</p>
+                  <p class="animate__animated animate__slideInLeft" id="caption">Discuss with experts and plan the most joyful vacation.</p>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="1500">
                 <img id="carouselimg" src="./images/pexels-rachel-claire-4825701.jpg" class="image d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5  class="animate__animated animate__bounce">Pick the best packages</h5>
-                  <p class="animate__animated animate__slideInLeft">Choose from a wide variety of packages according to you.</p>
+                  <h5  class="animate__animated animate__bounce" id="caption">Pick the best packages</h5>
+                  <p class="animate__animated animate__slideInLeft"id="caption">Choose from a wide variety of packages according to you.</p>
                 </div>
               </div>
               <div class="carousel-item" data-bs-interval="1500">
                 <img id="carouselimg" src="./images/pexels-rachel-vine-2114206.jpg" class="image d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h5  class="animate__animated animate__bounce">Enjoy Excellent services!</h5>
-                  <p class="animate__animated animate__slideInLeft">We provide best servic. customer satisfaction is our first priority.</p>
+                  <h5  class="animate__animated animate__bounce"id="caption">Enjoy Excellent services!</h5>
+                  <p class="animate__animated animate__slideInLeft"id="caption">We provide best servic. customer satisfaction is our first priority.</p>
                 </div>
               </div>
             </div>
@@ -168,7 +175,8 @@
           </div>
          <div class="footer">
             <div class="row footer">
-              <div class="col-3"></div>
+              <div class="col-3"><ul style="list-style-type: none;">   <li style="margin-top: 200px; margin-left: 85px; color: white;"> <i class="fa-solid fa-location-dot fa-5x"></i></li>
+              <li style="font-size: 40px; color: white;"><b>Travel Expert</b></li></ul></div>
               <div class="col-3"></div>
               <div class="col-3"></div>
               <div class="col-3"></div>
